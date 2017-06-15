@@ -36,8 +36,8 @@ comments: true
 
 - 각각의 변수 별 경험적 결과가 어떠한지 정의하기
 - 분포 파악하기
- - real value : 종속변수 ( $$y$$ ) 와 설명변수 ( $$X$$ ) 간의 Scatter plot ( 또는 Pair plot ) + 상관계수 파악을 통해 상관정도를 가늠
- - categorical value : 설명변수의 등급별 종속변수 값의 Box plot + Paired Sample t-test 를 통해 유의한 차이가 있는지 파악
+  - real value : 종속변수 ( $$y$$ ) 와 설명변수 ( $$X$$ ) 간의 Scatter plot ( 또는 Pair plot ) + 상관계수 파악을 통해 상관정도를 가늠
+  - categorical value : 설명변수의 등급별 종속변수 값의 Box plot + Paired Sample t-test 를 통해 유의한 차이가 있는지 파악
 
 ##### Feature Selection ( Step-wise Methods )
 
@@ -57,7 +57,7 @@ comments: true
 ##### Check Inporved Model
 
 ##### Diagnosis of Multicollinearity
-독립변수 ( $$X$$ ) 들 간에 서로 상관성이 높을 경우 [Multicollinearity ( 다중공선성 )](https://en.wikipedia.org/wiki/Multicollinearity) 이 발생한다. 머신러닝 문제에서 Overfitting 과 비슷한 개념. 이 경우, 모델에 학습되지 않은 범위의 $$X_new$$ 데이터가 들어올 경우 굉장히 불안정한 예측값 ( $$\hat{y}$$ ) 을 내놓는다. 모델링의 목적인 Generalization 에 위배.
+독립변수 ( $$X$$ ) 들 간에 서로 상관성이 높을 경우 [Multicollinearity ( 다중공선성 )](https://en.wikipedia.org/wiki/Multicollinearity) 이 발생한다. 머신러닝 문제에서 Overfitting 과 비슷한 개념. 이 경우, 모델에 학습되지 않은 범위의 $$X_{new}$$ 데이터가 들어올 경우 굉장히 불안정한 예측값 ( $$\hat{y}$$ ) 을 내놓는다. 모델링의 목적인 Generalization 에 위배.
 - [( Pearson ) 상관행렬 및 상관계수](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient)를 통해 독립변수간 상관성 파악
 - [고유값 ( Eigen value ) ](https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors) < $$30$$ & [분산팽창계수 ( VIF; Variance Inflation Factor )](https://en.wikipedia.org/wiki/Variance_inflation_factor) < $$10$$ 검토
 
