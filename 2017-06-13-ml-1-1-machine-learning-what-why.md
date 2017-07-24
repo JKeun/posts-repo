@@ -3,7 +3,7 @@ layout: post
 title: "ML 1.1 Machine learning: what and why?"
 description: "Chapter 1. Introduction"
 date: 2017-06-13
-tags: [machine learning, probabilistic, statistics, data science]
+tags: [study, machine learning, probabilistic, statistics, data science]
 comments: true
 ---
 
@@ -15,7 +15,7 @@ comments: true
 
 ---
 
-## 1.1 Machine learning: what and why?
+### 1.1 MACHINE LEARNING: WHAT AND WHY?
 
 <center><mark>"We are drowning in information and starving for knowledge. - John Naisbitt."</mark></center>
 
@@ -31,7 +31,7 @@ comments: true
 
 * * *
 
-### 1.1.1 Types of machine learning
+#### 1.1.1 TYPES OF MACHINE LEARNING
 
 머신러닝은 대게 두 종류의 주요 타입으로 나뉜다.
 
