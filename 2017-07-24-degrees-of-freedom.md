@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "자유도 ( Degrees of Freedom )"
-description: "Memo ( 1 ) - Degrees of Freedom"
+title: "Degrees of Freedom"
+description: "자유도에 대하여"
 date: 2017-07-24
 tags: [memo, degrees of freedom, 자유도, SST, SSE, SSR, regression, statistics]
 comments: true

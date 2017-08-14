@@ -1,0 +1,10 @@
+---
+layout: post
+title: "AWS EC2 인스턴스에 JupyterHub 설치 및 서버 구축하기"
+description: "Installing Tensorflow and JupyterHub on an AWS EC2 Instance with GPU Support ( 1 )"
+date: 2017-08-15
+tags: [aws, ec2, tensorflow, gpu, p2.xlarge, instance, jupyterhub, jupyter notebook, pyenv, virtualenv]
+comments: true
+visible: 1
+---
+
