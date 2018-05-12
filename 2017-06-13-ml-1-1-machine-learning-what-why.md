@@ -5,6 +5,7 @@ description: "Chapter 1. Introduction"
 date: 2017-06-13
 tags: [study, machine learning, probabilistic, statistics, data science]
 comments: true
+visible: 1
 ---
 
 머신러닝을 본격적으로 배운지 벌써 1년이 되어 간다. 짧다면 짧은 3개월이란 시간 동안 미친듯이 배우고, 소화하려고 노력했었다. 그리고 배움을 증명하고자 나에게 주는 훈장처럼 산 책이 **Kevin P. Murphy** 의 **[Machine Learning - A Probabilistic Perspective](https://www.amazon.com/Machine-Learning-Probabilistic-Perspective-Computation/dp/0262018020)** 이다. 하루에 한 챕터씩 읽자고 배짱있게 주문했던 책이었으나, 구매한지 약 10달이 지난 지금 아직 Ch2도 못 끝냈다.
