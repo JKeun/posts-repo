@@ -5,7 +5,7 @@ description: "Chapter 1. Introduction"
 date: 2017-06-13
 tags: [study, machine learning, probabilistic, statistics, data science]
 comments: true
-visible: 1
+published: false
 ---
 
 ### 1.2 SUPERVISED LEARNING
