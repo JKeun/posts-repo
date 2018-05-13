@@ -53,7 +53,7 @@ $${\displaystyle {\begin{aligned}\operatorname {E} {\Big [}{\big (}y-{\hat {f}}(
 $$(\text{mse} = \text{Bias}^2 + \text{Variance} + \text{irreducible error})$$
 
 #### Derivation
-먼저 유도과정에 사용되는 수식을을 나열하면 다음과 같다.
+먼저 유도과정에 사용되는 수식을 나열하면 다음과 같다.
 
 i. 분산식의 재정렬
 
