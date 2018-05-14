@@ -46,11 +46,11 @@ $$y = f(x) + \varepsilon, \text{where the noise} ~ \varepsilon \sim \mathcal{N}(
 
 $$\min \sum{ \big[ (y - \hat{f})^2 \big] }$$
 
-일반화된 $$\hat{f}$$를 찾는 것은 다수의 샘플링된 데이터셋에 대한 다수의 알고리즘에 의해 진행되기 때문에, 우리가 어떤 $$\hat{f}$$를 선택하든지 간에 unseen sample $$x$$에 대한 기대오차(expected error)를 구할 수 있고, 이는 아래와 같이 분해가 된다.
+일반화된 $$\hat{f}$$를 찾는 것은 다수의 샘플링된 데이터셋에 대한 다수의 알고리즘에 의해 진행되기 때문에, 우리가 어떤 $$\hat{f}$$를 선택하든지 간에 unseen sample(=test set) $$x$$에 대한 기대오차(expected error)를 구할 수 있고, 이는 아래와 같이 분해가 된다.
 
 $${\displaystyle {\begin{aligned}\operatorname {E} {\Big [}{\big (}y-{\hat {f}}(x){\big )}^{2}{\Big ]}&=\operatorname {Bias} {\big [}{\hat {f}}(x){\big ]}^{2}+\operatorname {Var} {\big [}{\hat {f}}(x){\big ]}+\sigma ^{2}\\\end{aligned}}}$$
 
-$$(\text{mse} = \text{Bias}^2 + \text{Variance} + \text{irreducible error})$$
+$$(\text{mse}_{testset} = \text{Bias}^2 + \text{Variance} + \text{irreducible error})$$
 
 #### Derivation
 먼저 유도과정에 사용되는 수식을 나열하면 다음과 같다.
